@@ -15,7 +15,7 @@ def home():
         if request.method == "POST":
                 data = request.get_json()
 
-                        chat_id = data["message"]["chat"]["id"]
+chat_id = dados["mensagem"]["chat"]["id"]
                                 text = data["message"]["text"]
 
                                         resposta = f"Você disse: {text}"
